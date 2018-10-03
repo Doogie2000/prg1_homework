@@ -9,6 +9,12 @@ homework_due_dates=[]
 tests_quizzes=[]
 tests_quiz_dates=[]
 
+print(''' Enter a following value
+1) Add Homework and Due Dates
+2) Add Quizzes/Tests and Dates
+3) Display all data
+''')
+
 while(True):
     '''
     problem 1)
@@ -26,6 +32,8 @@ while(True):
         print("---Quizzes---")
         print(tests_quizzes)
         print(tests_quiz_dates)
-    print ("Have a Nice Day!")
+    print('''
+    Next input?
+    ''')
 
 
