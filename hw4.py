@@ -1,4 +1,4 @@
-
+#problem 1
 print('''
 Welcome to the bridge of Math 
 Enter a number and be amazed 
@@ -19,3 +19,5 @@ vvvv
 ''' +
 final_count + ''' 
 ^^^^''')
+
+#problem 2
