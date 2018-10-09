@@ -9,4 +9,6 @@ for x in list_of_numbers :
     y = number_to_check / x
     if (number_to_check % x == 0) :
         factors.append(y)
-print(str(number_to_check) +" has " + str(len(factors) + " factors, and they are " + str(factors))
+
+print(str(number_to_check) + " has " + str(len(factors) + "factors")
+print (" and they are " + str(factors))
