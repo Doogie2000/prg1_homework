@@ -13,5 +13,3 @@ print ('''This is your highest number
 ##########################
 '''
 + str(og_number))
-
-#complete
