@@ -144,6 +144,3 @@ while y_n == 2 :
 
             the only way to win is not to play
             ''')
-
-
-
