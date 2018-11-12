@@ -1,4 +1,8 @@
 class Irrational:
+    def __init__(self, iterations):
+        self.iterations = iterations
+        pass
+
     def _factorial(self, n):
         if n < 1:
             return 1
@@ -10,5 +14,5 @@ class Irrational:
         for number in range(0,places):
             e = e + 1/self._factorial(number)
         return e
-irrational = Irrational()
+irrational = Irrational(1000)
 print(irrational.e(100))
