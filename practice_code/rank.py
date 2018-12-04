@@ -21,8 +21,7 @@ class rank():
             "10":10,
             "Jack":11,
             "Queen":12,
-            "King":13,
-            "Invalid":-1
+            "King":13
         }
     def validate(self, face_value) :
         if face_value in self.values :
