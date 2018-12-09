@@ -23,6 +23,8 @@ class deck():
         draw_card = self.cards[0]
         self.cards.remove(draw_card)
         return draw_card
+    def add_card(self, card):
+        self.cards.append(card)
 
     def shuffle(self):
         deck1, deck2 = self.cut()
