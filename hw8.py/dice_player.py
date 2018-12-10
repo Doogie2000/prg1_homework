@@ -2,11 +2,11 @@ from dice import dice
 
 class player():
     def __init__(self):
-        player_name = input('''
+        self.player_name = input('''
         What is your player name? 
         >>> ''')            
-        turn_wins = 0
-        game_wins = 0
+        self.turn_wins = 0
+        self.game_wins = 0
     def display_status(self, turn_wins, game_wins, player_name) :
         print(''' 
         ''', player_name,''' 
